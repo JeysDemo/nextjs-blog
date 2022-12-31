@@ -9,7 +9,7 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>[To Do]</p>
+        <p>[More To Do]</p>
 
       </section>
     </Layout>
