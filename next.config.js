@@ -3,8 +3,10 @@
 /**
  * @type {import('next').NextConfig}
  **/
-const nextConfig = {
-    basePath: '/nextjs-blog/gh-pages',
-}
 
-module.exports = nextConfig
+module.exports = {
+    basePath: '/nextjs-blog/ghpages',
+    images: {
+        unoptimized: true,
+    },
+}
